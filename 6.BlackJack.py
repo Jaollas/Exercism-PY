@@ -1,4 +1,5 @@
 """Instructions
+
 In this exercise you are going to implement some rules of Blackjack, such as the way the game is played and scored.
 
 Note : In this exercise, A means ace, J means jack, Q means queen, and K means king. Jokers are discarded. A standard French-suited 52-card deck is assumed, but in most versions, several decks are shuffled together for play.
@@ -34,6 +35,7 @@ Task 1: Calculate the value of a card
  When the original two cards dealt total 9, 10, or 11 points, a player can place an additional bet equal to their original bet. This is known as "doubling down".
 
  Define the can_double_down(<card_one>, <card_two>) function with parameters card_one and card_two, which are a pair of cards. Determine if the two-card hand can be "doubled down", and return the boolean True if it can, False otherwise.
+ 
 """
 
 def value_of_card(card):

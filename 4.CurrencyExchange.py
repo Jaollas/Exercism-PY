@@ -1,4 +1,5 @@
 """Instructions
+
 Your friend Chandler plans to visit exotic countries all around the world. Sadly, Chandler's math skills aren't good. He's pretty worried about being scammed by currency exchanges during his trip - and he wants you to make a currency calculator for him. Here are his specifications for the app:
 
 Task 1: Estimate value after exchange
@@ -45,6 +46,7 @@ Task 6: Calculate value after exchange
  This function should return the maximum value of the new currency after calculating the exchange rate plus the spread. Remember that the currency denomination is a whole number, and cannot be sub-divided.
 
  Note: Returned value should be int type.
+ 
 """
 
 def exchange_money(budget, exchange_rate):

@@ -15,6 +15,7 @@ Task 3: Clean up spacing
 
 Task 4: Replace words with a synonym
  To make the paper even better, you can replace some of the adjectives with their synonyms. Write the function replace_word_choice() that takes sentence, old_word, and new_word as parameters. This function should replace all instances of the old_word with the new_word, and return a new str with the updated sentence.
+ 
 """
 
 def capitalize_title(title):

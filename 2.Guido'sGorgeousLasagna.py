@@ -1,4 +1,5 @@
 """Instructions
+
 You're going to write some code to help you cook a gorgeous lasagna from your favorite cookbook.
 
 You have five tasks, all related to cooking your recipe.
@@ -17,6 +18,7 @@ Task 4: Calculate total elapset cooking time (prep + bake) in minutes
 
 Task 5: Update the recipe with notes
  Go back through the recipe, adding "notes" in the form of function docstrings.
+
 """
 
 EXPECTED_BAKE_TIME = 40

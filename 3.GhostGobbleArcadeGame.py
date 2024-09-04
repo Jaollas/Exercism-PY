@@ -1,4 +1,5 @@
 """Instructions
+
 In this exercise, you need to implement some rules from Pac-Man, the classic 1980s-era arcade-game.
 
 You have four rules to implement, all related to the game states.
@@ -16,6 +17,7 @@ Task 3: Define if Pac-Man loses
 
 Task 4: Define if Pac-Man wins
  Define the win() function that takes three parameters (if Pac-Man has eaten all of the dots, if Pac-Man has a power pellet active, and if Pac-Man is touching a ghost) and returns a Boolean value if Pac-Man wins. The function should return True if Pac-Man has eaten all of the dots and has not lost based on the parameters defined in part 3.
+ 
 """
 
 def eat_ghost(power_pellet_active, touching_ghost):
