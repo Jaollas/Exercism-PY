@@ -29,3 +29,25 @@ Task 4: Extract and transform a word
  Implement the adjective_to_verb(<sentence>, <index>) function that takes two parameters. A sentence using the vocabulary word, and the index of the word, once that sentence is split apart. The function should return the extracted adjective as a verb.
 """
 
+def add_prefix_un(word):
+    return "un" + word
+
+def make_word_groups(vocab_words):
+    prefix = vocab_words[0]
+    result = f"{prefix}"
+    for word in range(1, len(vocab_words)):
+        result += f" :: {prefix + vocab_words[word]}"
+    return result
+    
+def remove_suffix_ness(word):
+    root = word[:-4]
+    if root[-1] == "i":
+        return root.replace("i", "y")
+    return root
+
+def adjective_to_verb(sentence, index):
+    palavras = sentence.split()
+    req = palavras[index]
+    if req[-1] == ".":
+        req = req[:len(req) -1]
+    return req + "en"
